@@ -1,0 +1,31 @@
+.footer {
+  color: var(--footer-p-clr);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 16px;
+  background-color: var(--footer-bg-clr);
+  padding: 10px;
+  margin-top: 3em;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--footer-a-clr);
+}
+
+.fa-github-alt {
+  font-size: 20px;
+  margin-left: 6px;
+  color: var(--footer-i-clr);
+  vertical-align: bottom;
+}
+.fa-github-alt:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,261 @@
+.s-wrapper {
+  width: 100%;
+  background-color: var(--skills-bg-clr);
+}
+.s-header {
+  text-align: center;
+  padding: 0rem 0 15px 0;
+  font-size: 30px;
+}
+.s-sectionWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.s-textSection {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.spnClr {
+  color: var(--skills-span-clr);
+}
+
+.s-textSection > p {
+  margin-bottom: 12px;
+  color: var(--skills-p-clr);
+  font-weight: 300;
+  word-wrap: break-word;
+  line-height: 1.8;
+  font-size: 1em;
+}
+
+.s-logoSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.s-logoSection h3 {
+  padding-bottom: 8px;
+  font-size: 22px;
+  color: var(--skills-h3-clr);
+}
+.s-logoSection li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: var(--skills-li-clr);
+}
+
+.s-logoSection li img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#skills-svg {
+  background-color: var(--project-bg-clr);
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .s-header {
+    font-size: 34px;
+    padding: 0rem 0 15px 0;
+  }
+
+  .s-textSection p {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+  }
+
+  .s-logoSection li {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .s-logoSection {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 12%;
+  }
+
+  .s-logoSection li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .s-header {
+    text-align: left;
+    font-size: 40px;
+    padding: 0rem 0 20px 2rem;
+  }
+
+  .s-sectionWrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .s-textSection {
+    width: 60%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .s-textSection p {
+    font-size: 1.15em;
+    margin-bottom: 15px;
+  }
+
+  .s-logoSection {
+    padding: 10px;
+    width: 40%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .s-logoSection h3 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .s-logoSection li {
+    margin-bottom: 20px;
+    font-size: 21px;
+  }
+
+  .s-logoSection li img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .s-header {
+    text-align: left;
+    font-size: 40px;
+    padding: 0rem 0 2rem 2rem;
+  }
+  .s-sectionWrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .s-textSection {
+    width: 60%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .s-textSection p {
+    font-size: 1.25em;
+    margin-bottom: 18px;
+  }
+
+  .s-logoSection {
+    padding: 10px;
+    width: 40%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .s-logoSection h3 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .s-logoSection li {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .s-logoSection li img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .s-header {
+    text-align: left;
+    font-size: 45px;
+    padding: 0 0 0 2rem;
+  }
+
+  .s-sectionWrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .s-textSection {
+    width: 60%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .s-textSection p {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+  }
+
+  .s-logoSection {
+    padding: 10px;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .s-logoSection h3 {
+    padding-bottom: 10px;
+    font-size: 27px;
+    letter-spacing: 1px;
+  }
+
+  .s-logoSection li {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .s-logoSection li img {
+    width: 64px;
+    height: 64px;
+    margin-right: 12px;
+  }
+}

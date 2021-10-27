@@ -1,0 +1,78 @@
+:root {
+  --header-bg-clr: #4a4e69;
+  --header-a-clr: #fff;
+
+  --about-bg-clr: #f6f6f8;
+  --about-p-clr: #333;
+  --about-a-clr: #437381;
+  --about-a-hover-bg-clr: #437381;
+  --about-a-hover-txt-clr: #fff;
+
+  --skills-bg-clr: #f0efeb;
+  --skills-p-clr: #333;
+  --skills-span-clr: #1f298df1;
+  --skills-h3-clr: #1f298df1;
+  --skills-li-clr: #333;
+
+  --project-bg-clr: #e5e5e5;
+  --project-h4-clr: #333;
+  --project-h4-bg-clr: #fee6e3;
+  --project-a-bg-clr: #5e6472;
+  --project-a-txt-clr: #fff;
+  --project-border-btm: 6px solid #50297773;
+  --project-h2-clr: ;
+  --project-h2-mini-clr: #fff;
+  --project-h2-mini-bg-clr: #2c41a0a8;
+  --project-p-clr: #333;
+  --project-btn-bg-clr: #fee6e3;
+  --project-btn-clr: #333;
+
+  --contact-bg-clr: #fff;
+  --contact-form-bg-clr: #f9f9f9;
+  --contact-form-txt-clr: #333;
+  --contact-form-req-span-clr: #d83135;
+  --contact-form-pholder-clr: #626262;
+  --contact-form-btn-bg-clr: #1a80e7;
+  --contact-form-btn-txt-clr: #fff;
+  --contact-links-li-clr: #333;
+  --contact-links-a-clr: #008ccf;
+  --contact-links-a-hover-clr: #065f88;
+
+  --footer-bg-clr: #d9d9d9;
+  --footer-a-clr: #333;
+  --footer-p-clr: #333;
+  --footer-i-clr: #333;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 125%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Merriweather", sans-serif;
+  margin: auto;
+}
+
+svg {
+  display: block;
+}
+
+.section-headers {
+  font-family: "Vesper Libre", serif;
+}
+
+.hideOverflowOnMobile {
+  overflow: hidden;
+}
+ 
