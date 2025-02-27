@@ -5,10 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "webpack",
     "serve": "./node_modules/.bin/webpack serve",
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -35,7 +35,7 @@
     "terser-webpack-plugin": "^5.2.4",
     "webpack": "^5.52.1",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.2.1"
+    "webpack-dev-server": "^4.15.2"
   },
   "dependencies": {
     "firebase": "^9.1.0"
